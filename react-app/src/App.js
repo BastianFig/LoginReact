@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <>
+      <>
   <meta charSet="UTF-8" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width+device-width ,initial-scale=1.0" />
@@ -40,11 +40,15 @@ function App() {
               Olvido contrasena?
             </a>
           </div>
+          <div className="input-field button">
+            <input type="button" defaultValue="Entrar" />
+          </div>
         </form>
       </div>
     </div>
   </div>
 </>
+
 
     </div>
   );
